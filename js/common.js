@@ -1,3 +1,4 @@
+$(function (){
     // Event
     loadHandler();
     $(window).on("scroll", scrollHandler);
@@ -35,3 +36,6 @@
         }
         return;
     }
+
+
+});
