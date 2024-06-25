@@ -37,5 +37,13 @@ $(function (){
         return;
     }
 
+    $('.sec-about__website-list').slick({
+        slidesToShow: 5,
+        slidesToScroll: 3,
+        arrows:false,
+        centerMode:true,
+    });
+      
+
 
 });
